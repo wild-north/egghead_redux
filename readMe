@@ -1,3 +1,7 @@
-npm i webpack webpack-dev-middleware webpack-hot-middleware express babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0 babel-plugin-transform-runtime --save-dev
+just run
 
-npm install babel-polyfill babel-runtime react react-dom --save
+        npm install
+
+and then
+
+        npm start
