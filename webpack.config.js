@@ -18,18 +18,18 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+      new webpack.HotModuleReplacementPlugin(),
     // new NpmInstallPlugin()
   ],
   module: {
     preLoaders: [
-      {
-        test: /\.js$/,
-        loaders: ['eslint'],
-        include: [
-          path.resolve(__dirname, "src")
-        ]
-      }
+      // {
+      //   test: /\.js$/,
+      //   loaders: ['eslint'],
+      //   include: [
+      //     path.resolve(__dirname, "src")
+      //   ]
+      // }
     ],
     loaders: [
       {
